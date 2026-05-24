@@ -18,8 +18,8 @@ Last updated: 2026-05-24
 | 2 | [@Aayuiiitmg](https://github.com/Aayuiiitmg) | 104 | 12 | 8 | 0 |
 | 3 | [@pranav-cholleti](https://github.com/pranav-cholleti) | 86 | 18 | 3 | 4 |
 | 4 | [@Mahi-19-design](https://github.com/Mahi-19-design) | 65 | 5 | 4 | 3 |
-| 5 | [@vasheekhan](https://github.com/vasheekhan) | 55 | 5 | 3 | 3 |
-| 6 | [@divyagsharma2006-blip](https://github.com/divyagsharma2006-blip) | 51 | 3 | 3 | 3 |
+| 5 | [@divyagsharma2006-blip](https://github.com/divyagsharma2006-blip) | 55 | 5 | 3 | 3 |
+| 6 | [@vasheekhan](https://github.com/vasheekhan) | 55 | 5 | 3 | 3 |
 | 7 | [@riteshpatil9686-lgtm](https://github.com/riteshpatil9686-lgtm) | 47 | 11 | 2 | 1 |
 | 8 | [@Smrithi-krishna](https://github.com/Smrithi-krishna) | 46 | 8 | 2 | 2 |
 | 9 | [@theblag](https://github.com/theblag) | 44 | 2 | 2 | 4 |
