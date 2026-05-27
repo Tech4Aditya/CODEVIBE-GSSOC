@@ -4,7 +4,7 @@ import RoadmapGenerator from "./RoadmapGenerator";
 import FAQ from "./FAQ";
 import Testimonials from "./testimonials";
 import EmptyState from "./EmptyState";
-import { FaBookOpen } from "react-icons/fa";
+import { FaBookOpen, FaHeart, FaRegHeart } from "react-icons/fa";
 
 // Images
 import htmlLogo from '../assets/htmlLogo.png';
@@ -22,13 +22,38 @@ const Courses = () => {
   const [search, setSearch] = useState('');
   const [user, setUser] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState('All');
+  const [wishlist, setWishlist] = useState([]);
+  const [animatingId, setAnimatingId] = useState(null);
+  const [showWishlistOnly, setShowWishlistOnly] = useState(false); // New state for filter
 
   useEffect(() => {
     const loggedInUser = localStorage.getItem('user');
     if (loggedInUser) {
       setUser(JSON.parse(loggedInUser));
     }
+    const savedWishlist = localStorage.getItem('codevibe_wishlist');
+    if (savedWishlist) setWishlist(JSON.parse(savedWishlist));
   }, []);
+
+  const toggleWishlist = (e, courseTitle) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setAnimatingId(courseTitle);
+    setTimeout(() => setAnimatingId(null), 400);
+    setWishlist(prev => {
+      const updated = prev.includes(courseTitle)
+        ? prev.filter(t => t !== courseTitle)
+        : [...prev, courseTitle];
+      localStorage.setItem('codevibe_wishlist', JSON.stringify(updated));
+      
+      // Auto-turn off wishlist filter if the wishlist becomes empty
+      if (updated.length === 0) {
+        setShowWishlistOnly(false);
+      }
+      
+      return updated;
+    });
+  };
 
   const courses = [
     {
@@ -128,10 +153,11 @@ const Courses = () => {
   const filteredCourses = courses.filter((course) => {
     const matchesSearch = course.title.toLowerCase().includes(search.toLowerCase());
     const matchesCategory = selectedCategory === 'All' || course.category === selectedCategory;
-    return matchesSearch && matchesCategory;
+    const matchesWishlist = showWishlistOnly ? wishlist.includes(course.title) : true;
+    
+    return matchesSearch && matchesCategory && matchesWishlist;
   });
 
-  // Get level badge color
   const getLevelBadge = (level) => {
     switch(level) {
       case 'Beginner':
@@ -147,6 +173,16 @@ const Courses = () => {
 
   return (
     <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '0 20px' }}>
+
+      {/* Heart Animation */}
+      <style>{`
+        @keyframes heartPop {
+          0% { transform: scale(1); }
+          50% { transform: scale(1.5); }
+          100% { transform: scale(1); }
+        }
+      `}</style>
+
       {/* Welcome Banner */}
       {user && (
         <div
@@ -198,6 +234,30 @@ const Courses = () => {
         >
           📚 Available Courses
         </h2>
+
+        {/* Wishlist Count Badge */}
+        {wishlist.length > 0 && (
+          <button 
+            onClick={() => setShowWishlistOnly(!showWishlistOnly)}
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '8px',
+              background: showWishlistOnly ? '#ff4b6e' : 'rgba(255,75,110,0.15)',
+              border: '1px solid rgba(255,75,110,0.3)',
+              borderRadius: '30px',
+              padding: '8px 18px',
+              color: showWishlistOnly ? 'white' : '#ff4b6e',
+              fontSize: '0.9rem',
+              fontWeight: '500',
+              cursor: 'pointer',
+              transition: 'all 0.3s ease',
+            }}
+          >
+            <FaHeart size={14} color={showWishlistOnly ? "white" : "#ff4b6e"} />
+            {wishlist.length} Wishlisted
+          </button>
+        )}
       </div>
 
       {/* Category Filter Buttons */}
@@ -264,22 +324,28 @@ const Courses = () => {
                 borderRadius: '20px',
                 padding: '24px',
                 transition: 'transform 0.3s ease, box-shadow 0.3s ease',
-                border: '1px solid rgba(255,255,255,0.1)',
+                border: wishlist.includes(course.title)
+                  ? '1px solid rgba(255,75,110,0.4)'
+                  : '1px solid rgba(255,255,255,0.1)',
                 cursor: 'pointer',
                 position: 'relative',
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.transform = 'translateY(-6px)';
                 e.currentTarget.style.boxShadow = '0 12px 24px rgba(0,0,0,0.3)';
-                e.currentTarget.style.borderColor = 'rgba(255,255,255,0.2)';
+                e.currentTarget.style.borderColor = wishlist.includes(course.title)
+                  ? 'rgba(255,75,110,0.6)'
+                  : 'rgba(255,255,255,0.2)';
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.transform = 'translateY(0)';
                 e.currentTarget.style.boxShadow = 'none';
-                e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)';
+                e.currentTarget.style.borderColor = wishlist.includes(course.title)
+                  ? 'rgba(255,75,110,0.4)'
+                  : 'rgba(255,255,255,0.1)';
               }}
             >
-              {/* Level Badge - Moved to top-right corner of card, away from logo */}
+              {/* Level Badge */}
               <div
                 style={{
                   position: 'absolute',
@@ -304,7 +370,40 @@ const Courses = () => {
                 </span>
               </div>
 
-              {/* Image - Now without overlapping badge */}
+              {/* 🔖 Wishlist Bookmark Button */}
+              <button
+                onClick={(e) => toggleWishlist(e, course.title)}
+                title={wishlist.includes(course.title) ? "Remove from wishlist" : "Add to wishlist"}
+                style={{
+                  position: 'absolute',
+                  top: '10px',
+                  left: '13px',
+                  zIndex: 2,
+                  background: 'none',
+                  border: 'none',
+                  padding: '0',
+                  cursor: 'pointer',
+                  animation: animatingId === course.title ? 'heartPop 0.4s ease' : 'none',
+                  filter: wishlist.includes(course.title)
+                    ? 'drop-shadow(0 2px 4px rgba(255,75,110,0.6))'
+                    : 'drop-shadow(0 2px 4px rgba(0,0,0,0.3))',
+                  transition: 'all 0.3s ease',
+                }}
+              >
+                <svg
+                  width="24"
+                  height="30"
+                  viewBox="0 0 24 32"
+                  fill={wishlist.includes(course.title) ? "#ff4b6e" : "rgba(255,255,255,0.15)"}
+                  stroke={wishlist.includes(course.title) ? "#ff4b6e" : "rgba(255,255,255,0.4)"}
+                  strokeWidth="1.5"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M2 2 H22 V30 L12 22 L2 30 Z" />
+                </svg>
+              </button>
+
+              {/* Image */}
               <div
                 style={{
                   display: 'flex',
@@ -314,18 +413,18 @@ const Courses = () => {
                   marginTop: '8px',
                 }}
               >
-               <img
-  src={course.img}
-  alt={course.title}
-  loading="lazy"
-  className="course-img"
-  style={{
-    width: "100%",
-    maxWidth: "80px",
-    height: "80px",
-    objectFit: "contain",
-  }}
-/>
+                <img
+                  src={course.img}
+                  alt={course.title}
+                  loading="lazy"
+                  className="course-img"
+                  style={{
+                    width: "100%",
+                    maxWidth: "80px",
+                    height: "80px",
+                    objectFit: "contain",
+                  }}
+                />
               </div>
 
               {/* Title */}
@@ -423,21 +522,21 @@ const Courses = () => {
         </div>
       ) : (
         <EmptyState
-  icon={<FaBookOpen />}
-  title="No Courses Found"
-  description="We couldn't find any courses matching your selected category or search query. Try exploring other categories to continue learning."
-  buttonText="Show All Courses"
-  onButtonClick={() => {
-    setSelectedCategory("All");
-    setSearch("");
-  }}
-/>
+          icon={<FaBookOpen />}
+          title="No Courses Found"
+          description="We couldn't find any courses matching your selected category or search query. Try exploring other categories to continue learning."
+          buttonText="Show All Courses"
+          onButtonClick={() => {
+            setSelectedCategory("All");
+            setSearch("");
+            setShowWishlistOnly(false); // Reset wishlist filter
+          }}
+        />
       )}
       <RoadmapGenerator />
       <Testimonials />
       <FAQ />
     </div>
-    
   );
 };
 
