@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import axios from "axios";
 import API_BASE_URL from "./config/api";
 import Glossary from "./components/Glossary";
-<Route path="/glossary" element={<Glossary />} />;
 
 const App = () => {
   const [data, setData] = useState("");

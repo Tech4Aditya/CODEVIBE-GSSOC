@@ -4,8 +4,9 @@ import axios from "axios";
 import API_BASE_URL from "../config/api";
 
 // ── CodeMirror 6 imports ──────────────────────────────────────────────────────
-import { EditorView, basicSetup } from "codemirror";
-import { EditorState }            from "@codemirror/state";
+import { EditorView, Decoration } from "@codemirror/view";
+import { basicSetup } from "codemirror";
+import { EditorState, StateField, StateEffect } from "@codemirror/state";
 import { html }                   from "@codemirror/lang-html";
 import { css }                    from "@codemirror/lang-css";
 import { javascript }             from "@codemirror/lang-javascript";
@@ -14,8 +15,6 @@ import { java }                   from "@codemirror/lang-java";
 import { cpp }                    from "@codemirror/lang-cpp";
 import { sql }                    from "@codemirror/lang-sql";
 import { oneDark }                from "@codemirror/theme-one-dark";
-import { Decoration } from "@codemirror/view";
-import { StateField, StateEffect } from "@codemirror/state";
 
 // ─── Scoring ──────────────────────────────────────────────────────────────────
 const SCORING = (attempt) =>
