@@ -71,39 +71,43 @@ backend.use((err, req, res, next) => {
   });
 });
 
-const MONGODB_URL =
-  process.env.DB_URL ||
-  process.env.MONGODB_URI ||
-  "mongodb://127.0.0.1:27017/codevibe";
+module.exports = { app: backend, server };
 
-mongoose
-  .connect(MONGODB_URL)
-  .then(() => {
-    const PORT = process.env.PORT || 5002;
+if (require.main === module) {
+  const MONGODB_URL =
+    process.env.DB_URL ||
+    process.env.MONGODB_URI ||
+    "mongodb://127.0.0.1:27017/codevibe";
 
-    server.listen(PORT, () => {
-      console.log(`✅ Server Started on port ${PORT}`);
-      console.log("✅ Connected to MongoDB");
+  mongoose
+    .connect(MONGODB_URL)
+    .then(() => {
+      const PORT = process.env.PORT || 5002;
+
+      server.listen(PORT, () => {
+        console.log(`✅ Server Started on port ${PORT}`);
+        console.log("✅ Connected to MongoDB");
+      });
+    })
+    .catch((err) => {
+      console.error("❌ MongoDB connection error:", err);
     });
-  })
-  .catch((err) => {
-    console.error("❌ MongoDB connection error:", err);
-  });
 
-const gracefulShutdown = (signal) => {
-  console.log(`\n⚠️ ${signal} received. Starting graceful shutdown...`);
-  
-  server.close(() => {
-    console.log("🏁 HTTP server closed.");
-    mongoose.connection.close(false).then(() => {
-      console.log("🔌 MongoDB connection closed.");
-      process.exit(0);
-    }).catch((err) => {
-      console.error("❌ Error during MongoDB disconnection:", err);
-      process.exit(1);
+  const gracefulShutdown = (signal) => {
+    console.log(`\n⚠️ ${signal} received. Starting graceful shutdown...`);
+    
+    server.close(() => {
+      console.log("🏁 HTTP server closed.");
+      mongoose.connection.close(false).then(() => {
+        console.log("🔌 MongoDB connection closed.");
+        process.exit(0);
+      }).catch((err) => {
+        console.error("❌ Error during MongoDB disconnection:", err);
+        process.exit(1);
+      });
     });
-  });
-};
+  };
 
-process.on("SIGINT", () => gracefulShutdown("SIGINT"));
-process.on("SIGTERM", () => gracefulShutdown("SIGTERM"));
+  process.on("SIGINT", () => gracefulShutdown("SIGINT"));
+  process.on("SIGTERM", () => gracefulShutdown("SIGTERM"));
+}
