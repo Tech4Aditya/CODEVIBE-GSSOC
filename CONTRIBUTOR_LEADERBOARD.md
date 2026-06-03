@@ -14,7 +14,7 @@ Last updated: 2026-06-03
 
 | Rank | Contributor | Score | Commits | Merged PRs | Closed Issues |
 | --- | --- | ---: | ---: | ---: | ---: |
-| 1 | [@Pcmhacker-piro](https://github.com/Pcmhacker-piro) | 230 | 0 | 6 | 34 |
+| 1 | [@Pcmhacker-piro](https://github.com/Pcmhacker-piro) | 240 | 0 | 7 | 34 |
 | 2 | [@sricharan-213](https://github.com/sricharan-213) | 131 | 8 | 7 | 9 |
 | 3 | [@Mahi-19-design](https://github.com/Mahi-19-design) | 112 | 6 | 5 | 10 |
 | 4 | [@Dhruvil20060](https://github.com/Dhruvil20060) | 111 | 8 | 6 | 7 |
