@@ -1,5 +1,6 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
+import './config/axiosSetup'; // Global axios auth interceptor – must be before component imports
 import './index.css';
 
 import {
@@ -25,6 +26,8 @@ import Compiler from './components/Compiler.jsx';
 import Certificate from './components/Certificate.jsx';
 import ViewReport from './components/ViewReport.jsx';
 import DynamicProgressSidebar from './components/DynamicProgressSidebar.jsx';
+import Leaderboard from './components/Leaderboard.jsx';
+import Flashcard from './components/Flashcard.jsx';
 import {
   AuthProvider,
   PrivateRoute,
@@ -144,6 +147,7 @@ import DsaLesson9 from './components/DsaLesson9.jsx';
 import DsaLesson10 from './components/DsaLesson10.jsx';
 import DsaLesson11 from './components/DsaLesson11.jsx';
 import DsaLesson12 from './components/DsaLesson12.jsx';
+import DsaLesson13 from './components/DsaLesson13.jsx';
 
 
 // Express Lessons
@@ -221,6 +225,7 @@ import ScrollNavigator from "./components/common/ScrollNavigator";
 import GlobalBackNav from "./components/common/GlobalBackNav.jsx";
 import ErrorBoundary from "./components/ErrorBoundary.jsx";
 import { SearchProvider } from "./context/SearchContext.jsx";
+import  Contact  from "./components/Contact.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
