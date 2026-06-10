@@ -541,7 +541,7 @@ useEffect(() => {
                 onClick={clearSearch}
                 aria-label="Clear search"
               >
-                <FaTimes />
+                <FaTimes size={15} />
               </button>
             )}
             <button type="submit" className="search-btn" aria-label="Search">
