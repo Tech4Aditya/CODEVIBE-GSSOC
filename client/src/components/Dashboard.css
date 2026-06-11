@@ -399,6 +399,14 @@ body::-webkit-scrollbar,
     display: inline;
     
   }
+  .history{
+        margin-bottom: -4px;
+    margin-right: 2px;
+  }
+  .updated-div{
+        margin-right: 5px;
+     margin-bottom: 3px;
+  }
 }
 
 .section-overline {

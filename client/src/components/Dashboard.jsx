@@ -1480,8 +1480,8 @@ const Dashboard = () => {
                     <p className="section-overline">Performance Snapshot</p>
                     <h2>Global analytics</h2>
                   </div>
-                  <div className="flex items-center gap-1 mr-[2px] mb-[5px]">
-                    <History size={22}  />
+                  <div className="flex items-center gap-1 mr-[2px] mb-[5px] updated-div">
+                    <History size={22} className="history"  />
                     <span className="last-updated">
                       {analytics?.stats?.lastUpdated
                         ? new Date(
