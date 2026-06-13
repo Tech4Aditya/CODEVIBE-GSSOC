@@ -81,7 +81,9 @@ const ScrollNavigator = () => {
         title="Scroll to top"
         disabled={!showUp}
       >
-        <FaArrowUp aria-hidden="true" />
+        <span style={{ fontSize: '20px', lineHeight: 1 }}>
+          <FaArrowUp aria-hidden="true" />
+        </span>
       </button>
       <button
         className={`scroll-navigator__btn scroll-navigator__btn--down ${!showDown ? "scroll-navigator__btn--hidden" : ""}`}
@@ -90,7 +92,9 @@ const ScrollNavigator = () => {
         title="Scroll to bottom"
         disabled={!showDown}
       >
-        <FaArrowDown aria-hidden="true" />
+        <span style={{ fontSize: '20px', lineHeight: 1 }}>
+          <FaArrowDown aria-hidden="true" />
+        </span>
       </button>
     </div>
   );
