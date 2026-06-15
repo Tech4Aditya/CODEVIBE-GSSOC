@@ -27,6 +27,7 @@ const Head = () => {
   const debouncedQuery = useDebounce(query, 350); // added
   const [suggestions, setSuggestions] = useState([]);
   const [focused, setFocused] = useState(false);
+  const [error, setError] = useState("");
   const [menuOpen, setMenuOpen] = useState(false);
   const inputRef = useRef(null);
   const wrapperRef = useRef(null);
@@ -74,11 +75,13 @@ useEffect(() => {
   }, [debouncedQuery]);
 
   const handleSearch = (value) => {
-    setQuery(value); // still updates instantly so input stays responsive
-    if (value.trim().length === 0) {
-      setSuggestions([]);
-    }
-  };
+  setError("");
+  setQuery(value);
+
+  if (value.trim().length === 0) {
+    setSuggestions([]);
+  }
+};
 
   const handleSelect = (course) => {
     setQuery(course.label);
@@ -92,16 +95,25 @@ useEffect(() => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    const exactMatch = COURSES.find(
-      (c) => c.label.toLowerCase() === query.trim().toLowerCase(),
-    );
-    if (exactMatch) {
-      handleSelect(exactMatch);
-    } else {
-      setSuggestions([]);
-    }
-  };
+  e.preventDefault();
+
+  if (!query.trim()) {
+    setError("Please enter a course name.");
+    return;
+  }
+
+  setError("");
+
+  const exactMatch = COURSES.find(
+    (c) => c.label.toLowerCase() === query.trim().toLowerCase(),
+  );
+
+  if (exactMatch) {
+    handleSelect(exactMatch);
+  } else {
+    setSuggestions([]);
+  }
+};
 
   const handleLogout = (e) => {
     if (e) e.preventDefault();
@@ -518,8 +530,14 @@ useEffect(() => {
               </button>
             )}
             <button type="submit" className="search-btn" aria-label="Search">
-              Search
+               Search
             </button>
+
+            {error && (
+              <div className="search-error">
+            {error}
+              </div>
+            )}
 
             {/* Suggestions Dropdown */}
             {focused && suggestions.length > 0 && (
