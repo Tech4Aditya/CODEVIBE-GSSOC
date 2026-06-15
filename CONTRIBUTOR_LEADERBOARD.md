@@ -26,9 +26,9 @@ Last updated: 2026-06-15
 | 10 | [@Vaibhav-221](https://github.com/Vaibhav-221) | 108 | 9 | 4 | 10 |
 | 11 | [@Aayuiiitmg](https://github.com/Aayuiiitmg) | 104 | 12 | 8 | 0 |
 | 12 | [@namrarafique93-del](https://github.com/namrarafique93-del) | 97 | 11 | 5 | 5 |
-| 13 | [@pranav-cholleti](https://github.com/pranav-cholleti) | 86 | 18 | 3 | 4 |
-| 14 | [@divyagsharma2006-blip](https://github.com/divyagsharma2006-blip) | 80 | 5 | 4 | 6 |
-| 15 | [@simran-nitj](https://github.com/simran-nitj) | 75 | 5 | 4 | 5 |
+| 13 | [@simran-nitj](https://github.com/simran-nitj) | 92 | 6 | 5 | 6 |
+| 14 | [@pranav-cholleti](https://github.com/pranav-cholleti) | 86 | 18 | 3 | 4 |
+| 15 | [@divyagsharma2006-blip](https://github.com/divyagsharma2006-blip) | 80 | 5 | 4 | 6 |
 | 16 | [@Swetha-Varma-K](https://github.com/Swetha-Varma-K) | 75 | 5 | 4 | 5 |
 | 17 | [@anshul23102](https://github.com/anshul23102) | 72 | 1 | 1 | 12 |
 | 18 | [@Owais-Siddique-11](https://github.com/Owais-Siddique-11) | 70 | 0 | 0 | 14 |
