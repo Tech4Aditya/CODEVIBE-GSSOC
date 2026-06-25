@@ -19,8 +19,8 @@ Last updated: 2026-06-25
 | 3 | [@Saubhagya1621](https://github.com/Saubhagya1621) | 138 | 9 | 7 | 10 |
 | 4 | [@sricharan-213](https://github.com/sricharan-213) | 131 | 8 | 7 | 9 |
 | 5 | [@Mahi-19-design](https://github.com/Mahi-19-design) | 127 | 6 | 5 | 13 |
-| 6 | [@DebasmitaBose0](https://github.com/DebasmitaBose0) | 115 | 0 | 0 | 23 |
-| 7 | [@Dhruvil20060](https://github.com/Dhruvil20060) | 111 | 8 | 6 | 7 |
+| 6 | [@Dhruvil20060](https://github.com/Dhruvil20060) | 121 | 8 | 7 | 7 |
+| 7 | [@DebasmitaBose0](https://github.com/DebasmitaBose0) | 115 | 0 | 0 | 23 |
 | 8 | [@vasheekhan](https://github.com/vasheekhan) | 110 | 5 | 3 | 14 |
 | 9 | [@Vaibhav-221](https://github.com/Vaibhav-221) | 108 | 9 | 4 | 10 |
 | 10 | [@Aayuiiitmg](https://github.com/Aayuiiitmg) | 104 | 12 | 8 | 0 |
@@ -29,9 +29,9 @@ Last updated: 2026-06-25
 | 13 | [@pranav-cholleti](https://github.com/pranav-cholleti) | 86 | 18 | 3 | 4 |
 | 14 | [@divyaa404](https://github.com/divyaa404) | 80 | 5 | 4 | 6 |
 | 15 | [@Swetha-Varma-K](https://github.com/Swetha-Varma-K) | 75 | 5 | 4 | 5 |
-| 16 | [@anshul23102](https://github.com/anshul23102) | 72 | 1 | 1 | 12 |
-| 17 | [@Owais-Siddique-11](https://github.com/Owais-Siddique-11) | 70 | 0 | 0 | 14 |
-| 18 | [@Siddh2024](https://github.com/Siddh2024) | 69 | 2 | 1 | 11 |
+| 16 | [@Siddh2024](https://github.com/Siddh2024) | 74 | 2 | 1 | 12 |
+| 17 | [@anshul23102](https://github.com/anshul23102) | 72 | 1 | 1 | 12 |
+| 18 | [@Owais-Siddique-11](https://github.com/Owais-Siddique-11) | 70 | 0 | 0 | 14 |
 | 19 | [@PremSahith](https://github.com/PremSahith) | 66 | 3 | 2 | 8 |
 | 20 | [@shivani11jadhav](https://github.com/shivani11jadhav) | 65 | 0 | 2 | 9 |
 | 21 | [@codedbydollys10](https://github.com/codedbydollys10) | 61 | 13 | 2 | 3 |
