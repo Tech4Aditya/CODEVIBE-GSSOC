@@ -2,7 +2,7 @@
 
 This leaderboard is generated automatically for `JiyaBatra/CODEVIBE-` by GitHub Actions.
 
-Last updated: 2026-06-26
+Last updated: 2026-06-27
 
 ## Scoring
 
@@ -14,7 +14,7 @@ Last updated: 2026-06-26
 
 | Rank | Contributor | Score | Commits | Merged PRs | Closed Issues |
 | --- | --- | ---: | ---: | ---: | ---: |
-| 1 | [@Pcmhacker-piro](https://github.com/Pcmhacker-piro) | 812 | 11 | 20 | 118 |
+| 1 | [@Pcmhacker-piro](https://github.com/Pcmhacker-piro) | 842 | 11 | 20 | 124 |
 | 2 | [@thedaripanator](https://github.com/thedaripanator) | 167 | 16 | 10 | 7 |
 | 3 | [@Saubhagya1621](https://github.com/Saubhagya1621) | 138 | 9 | 7 | 10 |
 | 4 | [@sricharan-213](https://github.com/sricharan-213) | 131 | 8 | 7 | 9 |
@@ -33,13 +33,13 @@ Last updated: 2026-06-26
 | 17 | [@Swetha-Varma-K](https://github.com/Swetha-Varma-K) | 75 | 5 | 4 | 5 |
 | 18 | [@anshul23102](https://github.com/anshul23102) | 72 | 1 | 1 | 12 |
 | 19 | [@Owais-Siddique-11](https://github.com/Owais-Siddique-11) | 70 | 0 | 0 | 14 |
-| 20 | [@shivani11jadhav](https://github.com/shivani11jadhav) | 65 | 0 | 2 | 9 |
-| 21 | [@codedbydollys10](https://github.com/codedbydollys10) | 61 | 13 | 2 | 3 |
-| 22 | [@Haritha-054](https://github.com/Haritha-054) | 59 | 2 | 2 | 7 |
-| 23 | [@notlexius-glitch](https://github.com/notlexius-glitch) | 58 | 4 | 3 | 4 |
-| 24 | [@Soham156](https://github.com/Soham156) | 58 | 4 | 2 | 6 |
-| 25 | [@riteshpatil9686-lgtm](https://github.com/riteshpatil9686-lgtm) | 57 | 11 | 2 | 3 |
-| 26 | [@ArshiBansal](https://github.com/ArshiBansal) | 55 | 5 | 2 | 5 |
+| 20 | [@ArshiBansal](https://github.com/ArshiBansal) | 65 | 5 | 3 | 5 |
+| 21 | [@shivani11jadhav](https://github.com/shivani11jadhav) | 65 | 0 | 2 | 9 |
+| 22 | [@codedbydollys10](https://github.com/codedbydollys10) | 61 | 13 | 2 | 3 |
+| 23 | [@Haritha-054](https://github.com/Haritha-054) | 59 | 2 | 2 | 7 |
+| 24 | [@notlexius-glitch](https://github.com/notlexius-glitch) | 58 | 4 | 3 | 4 |
+| 25 | [@Soham156](https://github.com/Soham156) | 58 | 4 | 2 | 6 |
+| 26 | [@riteshpatil9686-lgtm](https://github.com/riteshpatil9686-lgtm) | 57 | 11 | 2 | 3 |
 | 27 | [@jagrati7305](https://github.com/jagrati7305) | 55 | 5 | 3 | 3 |
 | 28 | [@knoxiboy](https://github.com/knoxiboy) | 55 | 0 | 0 | 11 |
 | 29 | [@Hiral-Barot](https://github.com/Hiral-Barot) | 54 | 2 | 1 | 8 |
@@ -64,53 +64,53 @@ Last updated: 2026-06-26
 | 48 | [@RehanAhmad25](https://github.com/RehanAhmad25) | 34 | 2 | 2 | 2 |
 | 49 | [@SatyajeetSahoo08](https://github.com/SatyajeetSahoo08) | 34 | 2 | 2 | 2 |
 | 50 | [@savniagrawal1701](https://github.com/savniagrawal1701) | 34 | 7 | 1 | 2 |
-| 51 | [@indresh404](https://github.com/indresh404) | 32 | 6 | 1 | 2 |
-| 52 | [@itssagarK](https://github.com/itssagarK) | 32 | 1 | 1 | 4 |
-| 53 | [@Mudita-Singh](https://github.com/Mudita-Singh) | 32 | 1 | 1 | 4 |
-| 54 | [@Aarushiprajapati](https://github.com/Aarushiprajapati) | 30 | 0 | 2 | 2 |
-| 55 | [@ShaktiShrey-01](https://github.com/ShaktiShrey-01) | 30 | 0 | 1 | 4 |
-| 56 | [@nithinsai-dev](https://github.com/nithinsai-dev) | 29 | 2 | 1 | 3 |
-| 57 | [@Samirahs08](https://github.com/Samirahs08) | 29 | 2 | 1 | 3 |
-| 58 | [@sujitha-kotyada](https://github.com/sujitha-kotyada) | 29 | 2 | 1 | 3 |
-| 59 | [@tazmeen24](https://github.com/tazmeen24) | 29 | 7 | 1 | 1 |
-| 60 | [@BhakktiGautam](https://github.com/BhakktiGautam) | 27 | 1 | 1 | 3 |
-| 61 | [@bhumishah2411](https://github.com/bhumishah2411) | 27 | 1 | 1 | 3 |
-| 62 | [@Kartikey-Pathak](https://github.com/Kartikey-Pathak) | 27 | 1 | 1 | 3 |
-| 63 | [@naredlaniharika](https://github.com/naredlaniharika) | 27 | 6 | 1 | 1 |
-| 64 | [@pericharlabindhumadhavi-data](https://github.com/pericharlabindhumadhavi-data) | 27 | 1 | 1 | 3 |
-| 65 | [@pracheyyy](https://github.com/pracheyyy) | 27 | 1 | 1 | 3 |
-| 66 | [@ravishankar-03](https://github.com/ravishankar-03) | 27 | 1 | 1 | 3 |
-| 67 | [@HariniGS-1207](https://github.com/HariniGS-1207) | 26 | 3 | 1 | 2 |
-| 68 | [@shreyamevada6](https://github.com/shreyamevada6) | 26 | 3 | 1 | 2 |
-| 69 | [@vipul674](https://github.com/vipul674) | 25 | 0 | 0 | 5 |
-| 70 | [@RishiMaskare](https://github.com/RishiMaskare) | 24 | 2 | 1 | 2 |
-| 71 | [@Suhas334](https://github.com/Suhas334) | 24 | 2 | 2 | 0 |
-| 72 | [@adityavikram-01](https://github.com/adityavikram-01) | 22 | 1 | 1 | 2 |
-| 73 | [@bujvala](https://github.com/bujvala) | 22 | 1 | 1 | 2 |
-| 74 | [@chandni5033](https://github.com/chandni5033) | 22 | 1 | 1 | 2 |
-| 75 | [@chinmaymohite3036](https://github.com/chinmaymohite3036) | 22 | 1 | 1 | 2 |
-| 76 | [@priyansh13-c](https://github.com/priyansh13-c) | 22 | 1 | 1 | 2 |
-| 77 | [@pratiyushraj007-Dev](https://github.com/pratiyushraj007-Dev) | 21 | 3 | 1 | 1 |
-| 78 | [@sanikayadav2024](https://github.com/sanikayadav2024) | 21 | 3 | 1 | 1 |
-| 79 | [@Mradul-0605](https://github.com/Mradul-0605) | 20 | 0 | 1 | 2 |
-| 80 | [@PremDhakad07](https://github.com/PremDhakad07) | 20 | 0 | 0 | 4 |
-| 81 | [@anan-yaa](https://github.com/anan-yaa) | 19 | 2 | 1 | 1 |
-| 82 | [@DnN04](https://github.com/DnN04) | 19 | 2 | 1 | 1 |
-| 83 | [@hrx01-dev](https://github.com/hrx01-dev) | 19 | 2 | 1 | 1 |
-| 84 | [@KaparthyReddy](https://github.com/KaparthyReddy) | 19 | 2 | 1 | 1 |
-| 85 | [@vanshikaMaheshwari](https://github.com/vanshikaMaheshwari) | 19 | 2 | 1 | 1 |
-| 86 | [@VRally28](https://github.com/VRally28) | 19 | 2 | 1 | 1 |
-| 87 | [@akshara200829-lgtm](https://github.com/akshara200829-lgtm) | 17 | 1 | 1 | 1 |
-| 88 | [@antara5603](https://github.com/antara5603) | 17 | 1 | 1 | 1 |
-| 89 | [@Codewith-Yogita](https://github.com/Codewith-Yogita) | 17 | 1 | 1 | 1 |
-| 90 | [@eshaanag](https://github.com/eshaanag) | 17 | 1 | 1 | 1 |
-| 91 | [@JANHAVI40](https://github.com/JANHAVI40) | 17 | 1 | 1 | 1 |
-| 92 | [@manassanjaymishra24](https://github.com/manassanjaymishra24) | 17 | 1 | 1 | 1 |
-| 93 | [@Nandhana73](https://github.com/Nandhana73) | 17 | 1 | 1 | 1 |
-| 94 | [@nandinisri1912](https://github.com/nandinisri1912) | 17 | 1 | 1 | 1 |
-| 95 | [@nishitha011](https://github.com/nishitha011) | 17 | 1 | 1 | 1 |
-| 96 | [@PadmakarBagade](https://github.com/PadmakarBagade) | 17 | 1 | 1 | 1 |
-| 97 | [@PeyalaAnandanaidu](https://github.com/PeyalaAnandanaidu) | 17 | 1 | 1 | 1 |
+| 51 | [@chinmaymohite3036](https://github.com/chinmaymohite3036) | 32 | 1 | 2 | 2 |
+| 52 | [@indresh404](https://github.com/indresh404) | 32 | 6 | 1 | 2 |
+| 53 | [@itssagarK](https://github.com/itssagarK) | 32 | 1 | 1 | 4 |
+| 54 | [@Mudita-Singh](https://github.com/Mudita-Singh) | 32 | 1 | 1 | 4 |
+| 55 | [@Aarushiprajapati](https://github.com/Aarushiprajapati) | 30 | 0 | 2 | 2 |
+| 56 | [@ShaktiShrey-01](https://github.com/ShaktiShrey-01) | 30 | 0 | 1 | 4 |
+| 57 | [@nithinsai-dev](https://github.com/nithinsai-dev) | 29 | 2 | 1 | 3 |
+| 58 | [@Samirahs08](https://github.com/Samirahs08) | 29 | 2 | 1 | 3 |
+| 59 | [@sujitha-kotyada](https://github.com/sujitha-kotyada) | 29 | 2 | 1 | 3 |
+| 60 | [@tazmeen24](https://github.com/tazmeen24) | 29 | 7 | 1 | 1 |
+| 61 | [@BhakktiGautam](https://github.com/BhakktiGautam) | 27 | 1 | 1 | 3 |
+| 62 | [@bhumishah2411](https://github.com/bhumishah2411) | 27 | 1 | 1 | 3 |
+| 63 | [@Kartikey-Pathak](https://github.com/Kartikey-Pathak) | 27 | 1 | 1 | 3 |
+| 64 | [@naredlaniharika](https://github.com/naredlaniharika) | 27 | 6 | 1 | 1 |
+| 65 | [@pericharlabindhumadhavi-data](https://github.com/pericharlabindhumadhavi-data) | 27 | 1 | 1 | 3 |
+| 66 | [@PeyalaAnandanaidu](https://github.com/PeyalaAnandanaidu) | 27 | 1 | 2 | 1 |
+| 67 | [@pracheyyy](https://github.com/pracheyyy) | 27 | 1 | 1 | 3 |
+| 68 | [@ravishankar-03](https://github.com/ravishankar-03) | 27 | 1 | 1 | 3 |
+| 69 | [@HariniGS-1207](https://github.com/HariniGS-1207) | 26 | 3 | 1 | 2 |
+| 70 | [@shreyamevada6](https://github.com/shreyamevada6) | 26 | 3 | 1 | 2 |
+| 71 | [@vipul674](https://github.com/vipul674) | 25 | 0 | 0 | 5 |
+| 72 | [@RishiMaskare](https://github.com/RishiMaskare) | 24 | 2 | 1 | 2 |
+| 73 | [@Suhas334](https://github.com/Suhas334) | 24 | 2 | 2 | 0 |
+| 74 | [@adityavikram-01](https://github.com/adityavikram-01) | 22 | 1 | 1 | 2 |
+| 75 | [@bujvala](https://github.com/bujvala) | 22 | 1 | 1 | 2 |
+| 76 | [@chandni5033](https://github.com/chandni5033) | 22 | 1 | 1 | 2 |
+| 77 | [@priyansh13-c](https://github.com/priyansh13-c) | 22 | 1 | 1 | 2 |
+| 78 | [@pratiyushraj007-Dev](https://github.com/pratiyushraj007-Dev) | 21 | 3 | 1 | 1 |
+| 79 | [@sanikayadav2024](https://github.com/sanikayadav2024) | 21 | 3 | 1 | 1 |
+| 80 | [@Mradul-0605](https://github.com/Mradul-0605) | 20 | 0 | 1 | 2 |
+| 81 | [@PremDhakad07](https://github.com/PremDhakad07) | 20 | 0 | 0 | 4 |
+| 82 | [@anan-yaa](https://github.com/anan-yaa) | 19 | 2 | 1 | 1 |
+| 83 | [@DnN04](https://github.com/DnN04) | 19 | 2 | 1 | 1 |
+| 84 | [@hrx01-dev](https://github.com/hrx01-dev) | 19 | 2 | 1 | 1 |
+| 85 | [@KaparthyReddy](https://github.com/KaparthyReddy) | 19 | 2 | 1 | 1 |
+| 86 | [@vanshikaMaheshwari](https://github.com/vanshikaMaheshwari) | 19 | 2 | 1 | 1 |
+| 87 | [@VRally28](https://github.com/VRally28) | 19 | 2 | 1 | 1 |
+| 88 | [@akshara200829-lgtm](https://github.com/akshara200829-lgtm) | 17 | 1 | 1 | 1 |
+| 89 | [@antara5603](https://github.com/antara5603) | 17 | 1 | 1 | 1 |
+| 90 | [@Codewith-Yogita](https://github.com/Codewith-Yogita) | 17 | 1 | 1 | 1 |
+| 91 | [@eshaanag](https://github.com/eshaanag) | 17 | 1 | 1 | 1 |
+| 92 | [@JANHAVI40](https://github.com/JANHAVI40) | 17 | 1 | 1 | 1 |
+| 93 | [@manassanjaymishra24](https://github.com/manassanjaymishra24) | 17 | 1 | 1 | 1 |
+| 94 | [@Nandhana73](https://github.com/Nandhana73) | 17 | 1 | 1 | 1 |
+| 95 | [@nandinisri1912](https://github.com/nandinisri1912) | 17 | 1 | 1 | 1 |
+| 96 | [@nishitha011](https://github.com/nishitha011) | 17 | 1 | 1 | 1 |
+| 97 | [@PadmakarBagade](https://github.com/PadmakarBagade) | 17 | 1 | 1 | 1 |
 | 98 | [@PradeepTech-hub](https://github.com/PradeepTech-hub) | 17 | 1 | 1 | 1 |
 | 99 | [@Sakshisen12](https://github.com/Sakshisen12) | 17 | 1 | 1 | 1 |
 | 100 | [@Sharanyaaa08](https://github.com/Sharanyaaa08) | 17 | 1 | 1 | 1 |
