@@ -2,7 +2,7 @@
 
 This leaderboard is generated automatically for `Tech4Aditya/CODEVIBE-GSSOC` by GitHub Actions.
 
-Last updated: 2026-08-18
+Last updated: 2026-08-19
 
 ## Scoring
 
@@ -33,7 +33,7 @@ Last updated: 2026-08-18
 | 17 | [@tazmeen24](https://github.com/tazmeen24) | 14 | 7 | 0 | 0 |
 | 18 | [@indresh404](https://github.com/indresh404) | 12 | 6 | 0 | 0 |
 | 19 | [@Mahi-19-design](https://github.com/Mahi-19-design) | 12 | 6 | 0 | 0 |
-| 20 | [@naredlaniharika](https://github.com/naredlaniharika) | 12 | 6 | 0 | 0 |
+| 20 | [@niharika270608](https://github.com/niharika270608) | 12 | 6 | 0 | 0 |
 | 21 | [@YashvardhanJani](https://github.com/YashvardhanJani) | 12 | 6 | 0 | 0 |
 | 22 | [@advikdivekar](https://github.com/advikdivekar) | 10 | 5 | 0 | 0 |
 | 23 | [@anan-yaa](https://github.com/anan-yaa) | 10 | 5 | 0 | 0 |
